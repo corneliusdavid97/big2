@@ -34,6 +34,7 @@ public class Controller : MonoBehaviour {
 			players[i % players.Count].deck.Deck.Cards.Add(cards[i]);
 		}
 		players[0].deck.Spread();
+        Debug.Log(PlayerPrefs.GetString("name"));
 	}
 
 	void testField()
