@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: c4587429086d0e548ba6f12c9de94e5d
+timeCreated: 1507742804
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: card deck_0
+    21300002: card deck_1
+    21300004: card deck_2
+    21300006: card deck_3
+    21300008: card deck_4
+    21300010: card deck_5
+    21300012: card deck_6
+    21300014: card deck_7
+    21300016: card deck_8
+    21300018: card deck_9
+    21300020: card deck_10
+    21300022: card deck_11
+    21300024: card deck_12
+    21300026: card deck_13
+    21300028: card deck_14
+    21300030: card deck_15
+    21300032: card deck_16
+    21300034: card deck_17
+    21300036: card deck_18
+    21300038: card deck_19
+    21300040: card deck_20
+    21300042: card deck_21
+    21300044: card deck_22
+    21300046: card deck_23
+    21300048: card deck_24
+    21300050: card deck_25
+    21300052: card deck_26
+    21300054: card deck_27
+    21300056: card deck_28
+    21300058: card deck_29
+    21300060: card deck_30
+    21300062: card deck_31
+    21300064: card deck_32
+    21300066: card deck_33
+    21300068: card deck_34
+    21300070: card deck_35
+    21300072: card deck_36
+    21300074: card deck_37
+    21300076: card deck_38
+    21300078: card deck_39
+    21300080: card deck_40
+    21300082: card deck_41
+    21300084: card deck_42
+    21300086: card deck_43
+    21300088: card deck_44
+    21300090: card deck_45
+    21300092: card deck_46
+    21300094: card deck_47
+    21300096: card deck_48
+    21300098: card deck_49
+    21300100: card deck_50
+    21300102: card deck_51
+    21300104: card deck_52
+    21300106: card deck_53
+    21300108: card deck_54
+    21300110: card deck_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: card deck_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 651.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 651.75
+        width: 153.21423
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_9
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 650
+        width: 156
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_10
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 651
+        width: 156
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_11
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 651
+        width: 151
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_12
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 651
+        width: 153
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_13
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 652
+        width: 150
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 434.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 434.75
+        width: 153.2143
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 434.75
+        width: 153.2143
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 434.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_19
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 434.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_20
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 434.75
+        width: 153.21428
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_21
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 434.75
+        width: 153.21423
+        height: 217.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_22
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 435
+        width: 155
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_23
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 435
+        width: 152
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_24
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 435
+        width: 151
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_25
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 436
+        width: 153
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_26
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 435
+        width: 153
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_27
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 435
+        width: 150
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 153
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 218
+        width: 153
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 218
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 218
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 218
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_33
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 218
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_34
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 218
+        width: 154
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_35
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 218
+        width: 151
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_36
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 218
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_37
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 218
+        width: 152
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_38
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 218
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_39
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 218
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_40
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 218
+        width: 152
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_41
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 218
+        width: 152
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_44
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 153
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_45
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1
+        width: 155
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 151
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_47
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_48
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 154
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_49
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 0
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_50
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_51
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_52
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 0
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_53
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 0
+        width: 151
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: card deck_54
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 0
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
