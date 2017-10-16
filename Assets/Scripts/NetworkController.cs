@@ -30,7 +30,7 @@ public class NetworkController : MonoBehaviour {
 	void Connect()
 	{
 		StartCoroutine(ConnectToServer());
-		string ip = "127.0.0.1";
+		string ip = "10.101.11.92";
 		socket.url = "ws://" + ip + ":3000/socket.io/?EIO=4&transport=websocket";
 		socket.On("USER_CONNECTED", OnUserConnected);
 	}
