@@ -3,7 +3,6 @@ using System.Collections;
 
 public class TouchInput : MonoBehaviour {
 	RaycastHit hit;
-	public NetworkController netCon;
 	// Use this for initialization
 	void Start () {
 	
@@ -23,7 +22,6 @@ public class TouchInput : MonoBehaviour {
 				if (touchedCard != null)
 				{
 					touchedObject.SendMessage("OnTouched");
-					netCon.UserTouch(touchedCard.name);
 				}
 			}
 		}

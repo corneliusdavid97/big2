@@ -13,9 +13,17 @@ public class Controller : MonoBehaviour {
 	public DeckController field;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+		initPlayer();
 		StartGame();
 		testField();
+	}
+
+	private void initPlayer()
+	{
+		currentPlayer.playerName = PlayerPrefs.GetString("name");
+		players.Add(currentPlayer);
 	}
 
 	void StartGame(){
@@ -33,7 +41,7 @@ public class Controller : MonoBehaviour {
 		{
 			players[i % players.Count].deck.Deck.Cards.Add(cards[i]);
 		}
-		players[0].deck.Spread();
+		players[0].deck.Spread(-3.5f);
 	}
 
 	void testField()

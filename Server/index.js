@@ -4,7 +4,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 
-app.set('port', process.env.PORT || 3000);
+app.set('port',3000);
 
 var clients = [];
 
@@ -14,30 +14,24 @@ io.on("connection", function (socket) {
     socket.on("USER_CONNECT", function () {
         console.log('User connected');
         for (var i = 0; i < clients.length; i++) {
-            socket.emit("USER_CONNECTED", { name: clients[i].name, position: clients[i].position });
+            socket.emit("USER_CONNECTED", {name: clients[i].name});
             console.log("User name " + clients[i].name + " is connected");
         }
     });
 
-    socket.on("PLAY", function (data) {
+    socket.on("JOIN_LOBBY", function (data) {
         currentUser = {
-            name: data.name,
-            position: data.position
+            name: data.name
         }
-
         clients.push(currentUser);
-        socket.emit("PLAY", currentUser);
-        socket.broadcast.emit("USER_CONNECTED",currentUser);
     });
 
-    socket.on("MOVE",function(data){
-        currentUser.position = data.position;
-        socket.emit("MOVE",data);
-        console.log(currentUser.name+" move to " + currentUser.position);
+    socket.on("PLAY",function(){
+
     });
 
     socket.on("TOUCH",function(data){
-        console.log("user"+" touched "+data.name);
+        console.log(data.name+" "+data.selected+" "+data.card);
     })
 
     socket.on("disconnect",function(){
@@ -52,6 +46,6 @@ io.on("connection", function (socket) {
 
 });
 
-server.listen(app.get('port'), function () {
-    console.log("----- SERVER IS RUNNING -----")
+server.listen(3000, function () {
+    console.log("----- SERVER IS RUNNING -----");
 });

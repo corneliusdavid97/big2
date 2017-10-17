@@ -26,12 +26,12 @@ public class DeckController : MonoBehaviour {
 		cards = deck.Cards;
 	}
 
-	public void Spread()
+	public void Spread(float y)
 	{
 		cards = deck.Cards;
 		for (int i = 0; i < cards.Count; i++)
 		{
-			GameObject card=Instantiate(cardPrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+			GameObject card=Instantiate(cardPrefab, new Vector3(0, y, 0), Quaternion.identity) as GameObject;
 			card.transform.Translate(new Vector3((i * 20 * Time.deltaTime)-10,0,0));
 			card.transform.Translate(Vector3.back * i * 0.1f);
 			card.GetComponent<CardController>().card= new Card(cards[i].Suit,cards[i].Value);

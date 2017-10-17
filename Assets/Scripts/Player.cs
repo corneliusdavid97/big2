@@ -3,14 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Player : MonoBehaviour {
-	public new string name;
+	public string playerName;
 	public int id;
+	public bool canPlay;
+	public bool pass;
 	public DeckController deck;
-    public List<Card> selectedCard = new List<Card>();
+	public List<Card> selectedCard;
 
-	public Player(string name,int id){
-		this.name = name;
+	public Player(string playerName,int id){
+		this.playerName = playerName;
 		this.id = id;
+		canPlay = false;
+		pass = false;
 	}
 
     public List<Card> SelectedCard
@@ -26,8 +30,9 @@ public class Player : MonoBehaviour {
         }
     }
 
-    public bool isValid(List<Card> output)
+    public bool isValid()
 	{
+		List<Card> output = this.selectedCard;
 		DeckController field = GameObject.Find("Controller").GetComponent<Controller>().field;
 		List<Card> cards = field.Deck.Cards;
 		if (cards.Count == output.Count)
@@ -42,6 +47,22 @@ public class Player : MonoBehaviour {
 			}
 		}
 		return false;
+	}
+
+	public void Play()
+	{
+		List<Card> cards = deck.Deck.Cards;
+		for (int i = 0; i < this.selectedCard.Count; i++)
+		{
+			cards.Remove(selectedCard[i]);
+		}
+		GameObject.Find("Controller").GetComponent<Controller>().field.Deck.Cards = selectedCard;
+		selectedCard.Clear();
+	}
+
+	public void Pass()
+	{
+
 	}
 
 	// Use this for initialization

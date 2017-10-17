@@ -29,28 +29,32 @@ public class NetworkController : MonoBehaviour {
 
 	void Connect()
 	{
-		StartCoroutine(ConnectToServer());
-		string ip = "10.101.11.92";
+		//Debug.Log("ip: " + PlayerPrefs.GetString("ip"));
+		string ip = PlayerPrefs.GetString("ip");
 		socket.url = "ws://" + ip + ":3000/socket.io/?EIO=4&transport=websocket";
+		socket.Awake();
+		StartCoroutine(ConnectToServer());
 		socket.On("USER_CONNECTED", OnUserConnected);
 	}
 
 	void OnUserConnected(SocketIOEvent evt)
 	{
-		Debug.Log("CONNECTED");
-
+		Debug.Log(evt.data.GetField("name").ToString()+" Joined the lobby");
 	}
 
 	IEnumerator ConnectToServer()
 	{
 		yield return new WaitForSeconds(0.5f);
 		socket.Emit("USER_CONNECT");
+		Debug.Log("connecting");
 	}
 
-	public void UserTouch(string name)
+	public void UserTouch(string card,bool selected)
 	{
 		Dictionary<string, string> data = new Dictionary<string, string>();
-		data.Add("name",name);
+		data.Add("name",currentPlayer.playerName);
+		data.Add("card",card);
+		data.Add("selected", selected ? "selected" : "unselected");
 		socket.Emit("TOUCH", new JSONObject(data));
 	}
 

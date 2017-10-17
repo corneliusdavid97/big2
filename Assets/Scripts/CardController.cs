@@ -8,11 +8,13 @@ public class CardController : MonoBehaviour {
 	public Sprite back;
 	bool selected;
     Controller controller;
+	NetworkController netCon;
 	
 
 	// Use this for initialization
 	void Start () {
         controller = GameObject.FindObjectOfType<Controller>();
+		netCon = GameObject.FindObjectOfType<NetworkController>();
 	}
 	
 	// Update is called once per frame
@@ -35,7 +37,7 @@ public class CardController : MonoBehaviour {
 			selected = false;
 			controller.onCardUnselected(card);
 		}
-
+		netCon.UserTouch(card.ToString(), selected);
 	}
 
 	public void showFace(bool b,Card c)
