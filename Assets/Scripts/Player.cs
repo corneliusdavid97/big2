@@ -30,9 +30,8 @@ public class Player : MonoBehaviour {
         }
     }
 
-    public bool isValid()
+    public static bool isValid(List<Card> output)
 	{
-		List<Card> output = this.selectedCard;
 		DeckController field = GameObject.Find("Controller").GetComponent<Controller>().field;
 		List<Card> cards = field.Deck.Cards;
 		if (cards.Count == output.Count)
@@ -62,7 +61,8 @@ public class Player : MonoBehaviour {
 
 	public void Pass()
 	{
-
+		canPlay = false;
+		pass = true;
 	}
 
 	// Use this for initialization

@@ -61,7 +61,7 @@ public class Controller : MonoBehaviour {
 		output.Add(new Card(1, 6));
 		output.Add(new Card(1, 7));
 
-		Debug.Log(players[players.Count - 1].isValid(output));
+		Debug.Log(Player.isValid(output));
 	}
 	
 	public void onCardSelected(Card card)
