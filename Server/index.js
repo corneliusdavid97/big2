@@ -20,10 +20,12 @@ io.on("connection", function (socket) {
     });
 
     socket.on("JOIN_LOBBY", function (data) {
+        console.log(data);
         currentUser = {
             name: data.name
         }
         clients.push(currentUser);
+        socket.emit("JOIN_LOBBY",JSON.stringify(clients));
     });
 
     socket.on("PLAY",function(){
@@ -46,6 +48,6 @@ io.on("connection", function (socket) {
 
 });
 
-server.listen(3000, function () {
+server.listen(app.get("port"), function () {
     console.log("----- SERVER IS RUNNING -----");
 });

@@ -8,6 +8,7 @@ public class inputController : MonoBehaviour {
     public Button start;
     public InputField nameInput;
     public InputField IPInput;
+	public GameObject playerPrefab;
 
     // Use this for initialization
     void Start () {
@@ -25,6 +26,11 @@ public class inputController : MonoBehaviour {
         Debug.Log(name + " " + IP);
         PlayerPrefs.SetString("name", name);
         PlayerPrefs.SetString("ip", IP);
-        SceneManager.LoadScene("TestScene");
-    }
+		GameObject player = Instantiate(playerPrefab, new Vector3(), Quaternion.identity);
+		player.name = name;
+		player.GetComponent<Player>().playerName = name;
+		DontDestroyOnLoadManager.DontDestroyOnLoad(player);
+
+		SceneManager.LoadScene("lobby");
+	}
 }

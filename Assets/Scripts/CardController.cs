@@ -14,7 +14,7 @@ public class CardController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         controller = GameObject.FindObjectOfType<Controller>();
-		netCon = GameObject.FindObjectOfType<NetworkController>();
+		netCon = NetworkController.instance;
 	}
 	
 	// Update is called once per frame
@@ -37,7 +37,8 @@ public class CardController : MonoBehaviour {
 			selected = false;
 			controller.onCardUnselected(card);
 		}
-		netCon.UserTouch(card.ToString(), selected);
+		Debug.Log(card);
+		netCon.UserTouch (card.ToString(), selected);
 	}
 
 	public void showFace(bool b,Card c)

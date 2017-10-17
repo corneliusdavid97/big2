@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 	public int id;
 	public bool canPlay;
 	public bool pass;
+	public bool isReady;
 	public DeckController deck;
 	public List<Card> selectedCard;
 
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour {
 		this.id = id;
 		canPlay = false;
 		pass = false;
+		isReady = false;
 	}
 
     public List<Card> SelectedCard
@@ -57,6 +59,11 @@ public class Player : MonoBehaviour {
 		}
 		GameObject.Find("Controller").GetComponent<Controller>().field.Deck.Cards = selectedCard;
 		selectedCard.Clear();
+	}
+
+	public void DontDestroy()
+	{
+		DontDestroyOnLoad(transform.gameObject);
 	}
 
 	public void Pass()
