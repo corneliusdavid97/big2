@@ -26,8 +26,9 @@ public class DeckController : MonoBehaviour {
 		cards = deck.Cards;
 	}
 
-	public void Spread(float y)
+	public void Spread(float y, bool facePosition)
 	{
+        
 		cards = deck.Cards;
 		for (int i = 0; i < cards.Count; i++)
 		{
@@ -36,7 +37,8 @@ public class DeckController : MonoBehaviour {
 			card.transform.Translate(Vector3.back * i * 0.1f);
 			card.GetComponent<CardController>().card= new Card(cards[i].Suit,cards[i].Value);
 			card.name = card.GetComponent<CardController>().card.ToString();
-			card.GetComponent<CardController>().showFace(true,cards[i]);
+			card.GetComponent<CardController>().showFace(facePosition,cards[i]);
+
 		}
 	}
 
