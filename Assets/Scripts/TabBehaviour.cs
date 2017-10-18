@@ -28,7 +28,7 @@ public class TabBehaviour : MonoBehaviour {
             
         }
         if (Input.GetKeyDown(KeyCode.Return)) {
-            SceneManager.LoadScene("lobby");
+			GameObject.FindObjectOfType<inputController>().onStartClick();
         }
 
         
