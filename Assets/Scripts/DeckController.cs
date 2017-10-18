@@ -32,8 +32,8 @@ public class DeckController : MonoBehaviour {
 		cards = deck.Cards;
 		for (int i = 0; i < cards.Count; i++)
 		{
-			GameObject card=Instantiate(cardPrefab, new Vector3(0, y, 0), Quaternion.identity) as GameObject;
-			card.transform.Translate(new Vector3((i * 20 * Time.deltaTime)-10,0,0));
+			GameObject card=Instantiate(cardPrefab, new Vector3(countX(cards.Count), y, 0), Quaternion.identity) as GameObject;
+			card.transform.Translate(new Vector3(0.4f*i,0,0));
 			card.transform.Translate(Vector3.back * i * 0.1f);
 			card.GetComponent<CardController>().card= new Card(cards[i].Suit,cards[i].Value);
 			card.name = card.GetComponent<CardController>().card.ToString();
@@ -42,10 +42,11 @@ public class DeckController : MonoBehaviour {
 		}
 	}
 
-    internal void Spread(float v)
-    {
-        throw new NotImplementedException();
-    }
+	public float countX(int numOfCard)
+	{
+		float totalCardW = (numOfCard - 1) * 0.4f;
+		return totalCardW / -2;
+	}
 
     /**
      * 0= tidak valid

@@ -22,8 +22,15 @@ public class Controller : MonoBehaviour {
 
 	private void initPlayer()
 	{
-		currentPlayer.playerName = PlayerPrefs.GetString("name");
-		players.Add(currentPlayer);
+		string name = PlayerPrefs.GetString("name");
+		foreach(Player p in GameObject.FindObjectsOfType<Player>())
+		{
+			if (p.playerName == name)
+			{
+				currentPlayer = p;
+			}
+			players.Add(p);
+		}
 	}
 
 	void StartGame(){
