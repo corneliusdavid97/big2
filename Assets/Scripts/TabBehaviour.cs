@@ -14,6 +14,7 @@ public class TabBehaviour : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         this.eventSystem = EventSystem.current;
+        name.GetComponent<InputField>().Select();
 	}
 	
 	// Update is called once per frame
