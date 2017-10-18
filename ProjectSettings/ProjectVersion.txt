@@ -1,10 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-m_EditorVersion: 2017.1.1f1
-=======
-m_EditorVersion: 5.4.5p5
-=======
-m_EditorVersion: 5.4.2f1
->>>>>>> parent of 4621f37... update 1.0.0.1
-m_StandardAssetsVersion: 0
->>>>>>> 4621f37fa6cfbb4bc86a795fe07cf86c2961f416
+m_EditorVersion: 2017.2.0f3
