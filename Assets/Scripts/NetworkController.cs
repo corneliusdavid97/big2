@@ -45,6 +45,7 @@ public class NetworkController : MonoBehaviour
 
 	private void onJoinLobby(SocketIOEvent obj)
 	{
+		Debug.Log(obj);
 		List<string> names = new List<string>();
 		for(int i = 0; i < obj.data.Count; i++)
 		{
