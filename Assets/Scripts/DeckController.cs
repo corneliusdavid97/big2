@@ -42,7 +42,12 @@ public class DeckController : MonoBehaviour {
 		}
 	}
 
-	/**
+    internal void Spread(float v)
+    {
+        throw new NotImplementedException();
+    }
+
+    /**
      * 0= tidak valid
      * 1= single card
      * 2= pair
@@ -52,7 +57,7 @@ public class DeckController : MonoBehaviour {
      * 6= bomb (4 of a kind)
      * 7= straight flush 
      */
-	public static int checkTypeOfPacket(List<Card> packet)
+    public static int checkTypeOfPacket(List<Card> packet)
 	{
 		//List<Card> packet = new List<Card>();
 		//packet.Add(new Card(0, 3));
