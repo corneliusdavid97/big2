@@ -1,31 +1,29 @@
-var express = require('express');
-var app = express();
+var app =require('express')();
+var server = require('http').Server(app);
+var io=require('socket.io')(server);
 
-var server = require('http').createServer(app);
-var io = require('socket.io').listen(server);
-
-app.set('port',3000);
+server.listen(3000);
 
 var clients = [];
 
-io.on("connection", function (socket) {
+io.sockets.on("connection", function (socket) {
     var currentUser;
 
-    socket.on("USER_CONNECT", function () {
+    socket.on("USER_CONNECT", function (data) {
         console.log('User connected');
+        currentUser = {
+            name: data.name
+        }
         for (var i = 0; i < clients.length; i++) {
             socket.emit("USER_CONNECTED", {name: clients[i].name});
             console.log("User name " + clients[i].name + " is connected");
         }
-    });
-
-    socket.on("JOIN_LOBBY", function (data) {
-        console.log(data);
-        currentUser = {
-            name: data.name
-        }
         clients.push(currentUser);
-        socket.emit("JOIN_LOBBY",JSON.stringify(clients));
+        var tmp={};
+        for(var i=0;i<clients.length;i++){
+            tmp["client"+i]=clients[i].name;
+        }
+        socket.emit("JOIN_LOBBY",tmp);
     });
 
     socket.on("PLAY",function(){
