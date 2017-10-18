@@ -14,6 +14,7 @@ public class TabBehaviour : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         this.eventSystem = EventSystem.current;
+        name.GetComponent<InputField>().Select();
 	}
 	
 	// Update is called once per frame
@@ -30,6 +31,12 @@ public class TabBehaviour : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Return)) {
 
 			GameObject.FindObjectOfType<inputController>().onStartClick();
+<<<<<<< HEAD
+=======
+
+            GameObject.FindObjectOfType<inputController>().onStartClick();
+
+>>>>>>> 9efb475752d40040b6d81e323be10bd4a7539466
         }
 
         
