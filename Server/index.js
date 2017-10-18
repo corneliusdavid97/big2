@@ -23,7 +23,7 @@ io.sockets.on("connection", function (socket) {
         for(var i=0;i<clients.length;i++){
             tmp["client"+i]=clients[i].name;
         }
-        socket.emit("JOIN_LOBBY",tmp);
+        io.sockets.emit("JOIN_LOBBY",tmp);
     });
 
     socket.on("PLAY",function(){
