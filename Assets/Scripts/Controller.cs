@@ -48,7 +48,17 @@ public class Controller : MonoBehaviour {
 		{
 			players[i % players.Count].deck.Deck.Cards.Add(cards[i]);
 		}
-        players[0].deck.Spread(-3.5f, true) ;
+		for (int i = 0; i < players.Count; i++)
+		{
+			if (i == 0)
+			{
+				players[i].deck.Spread(-3.5f, true);
+			}
+			else if (i == 1)
+			{
+				players[i].deck.Spread(3.5f, false);
+			}
+		}
 	}
 
 	void testField()
