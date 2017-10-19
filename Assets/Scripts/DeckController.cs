@@ -28,8 +28,9 @@ public class DeckController : MonoBehaviour {
 
 	public void Spread(float y, bool facePosition)
 	{
-        
 		cards = deck.Cards;
+		cards.Sort();
+		Debug.Log(cards.Count);
 		for (int i = 0; i < cards.Count; i++)
 		{
 			GameObject card=Instantiate(cardPrefab, new Vector3(countX(cards.Count), y, 0), Quaternion.identity) as GameObject;

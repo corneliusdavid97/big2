@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faces: []
-  back: {fileID: 21300110, guid: 8e08201cec45666458ce8302959c3f09, type: 3}
+  back: {fileID: 21300082, guid: c4587429086d0e548ba6f12c9de94e5d, type: 3}
 --- !u!212 &212000013275612046
 SpriteRenderer:
   m_ObjectHideFlags: 1

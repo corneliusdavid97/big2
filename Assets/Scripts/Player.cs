@@ -53,11 +53,15 @@ public class Player : MonoBehaviour {
 	public void Play()
 	{
 		List<Card> cards = deck.Deck.Cards;
+		List<Card> fieldCards = GameObject.Find("Controller").GetComponent<Controller>().field.Deck.Cards;
 		for (int i = 0; i < this.selectedCard.Count; i++)
 		{
 			cards.Remove(selectedCard[i]);
 		}
-		GameObject.Find("Controller").GetComponent<Controller>().field.Deck.Cards = selectedCard;
+		//for (int i = 0; i < cards.Count; i++)
+		//{
+		//	Debug.Log("cards= "+cards[i]);
+		//}
 		selectedCard.Clear();
 	}
 
