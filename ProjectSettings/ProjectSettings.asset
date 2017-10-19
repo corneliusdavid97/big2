@@ -3,10 +3,16 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 13
   productGUID: af0d4ddc81fb27a46a63054b79d48c4c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
+=======
+  serializedVersion: 12
+  productGUID: af0d4ddc81fb27a46a63054b79d48c4c
+  AndroidProfiler: 0
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
@@ -39,6 +45,11 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
+<<<<<<< HEAD
+=======
+  m_SplashScreenBackgroundLandscape: {fileID: 0}
+  m_SplashScreenBackgroundPortrait: {fileID: 0}
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -48,6 +59,10 @@ PlayerSettings:
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
+<<<<<<< HEAD
+=======
+  m_MobileMTRendering: 0
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
@@ -62,10 +77,15 @@ PlayerSettings:
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
+<<<<<<< HEAD
   androidBlitType: 0
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+=======
+  defaultIsFullScreen: 1
+  defaultIsNativeResolution: 1
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
@@ -95,7 +115,10 @@ PlayerSettings:
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
+<<<<<<< HEAD
   metalFramebufferOnly: 0
+=======
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   n3dsDisableStereoscopicView: 0
   n3dsEnableSharedListOpt: 1
   n3dsEnableVSync: 0
@@ -104,7 +127,10 @@ PlayerSettings:
   xboxOneMonoLoggingLevel: 0
   xboxOneLoggingLevel: 1
   xboxOneDisableEsram: 0
+<<<<<<< HEAD
   xboxOnePresentImmediateThreshold: 0
+=======
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   videoMemoryForVertexBuffers: 0
   psp2PowerMode: 0
   psp2AcquireBGM: 1
@@ -136,17 +162,25 @@ PlayerSettings:
     daydream:
       depthFormat: 0
       useSustainedPerformanceMode: 0
+<<<<<<< HEAD
       enableVideoLayer: 0
       useProtectedVideoMemory: 0
+=======
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
     hololens:
       depthFormat: 1
   protectGraphicsMemory: 0
   useHDRDisplay: 0
+<<<<<<< HEAD
   m_ColorGamuts: 00000000
   targetPixelDensity: 0
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+=======
+  targetPixelDensity: 0
+  resolutionScalingMode: 0
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   applicationIdentifier:
     Android: com.Company.ProductName
     Standalone: unity.DefaultCompany.Big2
@@ -233,9 +267,13 @@ PlayerSettings:
   AndroidKeyaliasName: 
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
+<<<<<<< HEAD
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
+=======
+  androidEnableBanner: 1
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -300,6 +338,7 @@ PlayerSettings:
   - m_BuildTarget: tvOS
     m_Enabled: 0
     m_Devices: []
+<<<<<<< HEAD
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -308,6 +347,12 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
+=======
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  webPlayerTemplate: APPLICATION:Default
+  m_TemplateCustomTags: {}
+>>>>>>> fc19e10b1c790b1c24600a881e90a87f5c9dbce0
   wiiUTitleID: 0005000011000000
   wiiUGroupID: 00010000
   wiiUCommonSaveSize: 4096

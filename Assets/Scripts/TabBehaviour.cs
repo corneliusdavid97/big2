@@ -29,7 +29,6 @@ public class TabBehaviour : MonoBehaviour {
             
         }
         if (Input.GetKeyDown(KeyCode.Return)) {
-
 			GameObject.FindObjectOfType<inputController>().onStartClick();
         }
 
