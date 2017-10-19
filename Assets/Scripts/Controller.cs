@@ -17,7 +17,7 @@ public class Controller : MonoBehaviour {
 	{
 		initPlayer();
 		StartGame();
-		testField();
+		//testField();
 	}
 
 	private void initPlayer()
@@ -34,7 +34,7 @@ public class Controller : MonoBehaviour {
 	}
 
 	void StartGame(){
-		Debug.Log(dealer.Deck);
+		//Debug.Log(dealer.Deck);
 		List<Card> cards = dealer.Deck.Cards;
 		for (int i = 3; i <= 15; i++) {
 			for (int j = 0; j < 4; j++) {
@@ -48,17 +48,13 @@ public class Controller : MonoBehaviour {
 		{
 			players[i % players.Count].deck.Deck.Cards.Add(cards[i]);
 		}
-		for (int i = 0; i < players.Count; i++)
-		{
-			if (i == 0)
-			{
-				players[i].deck.Spread(-3.5f, true);
-			}
-			else if (i == 1)
-			{
-				players[i].deck.Spread(3.5f, false);
-			}
-		}
+		spreadAll();
+	}
+
+	public void spreadAll()
+	{
+		players[0].deck.Spread(-3.5f, true);
+		players[1].deck.Spread(3.5f, false);
 	}
 
 	void testField()
@@ -88,10 +84,10 @@ public class Controller : MonoBehaviour {
 			currentPlayer.selectedCard = new List<Card>();
 		}
 		currentPlayer.selectedCard.Add(card);
-		foreach(Card c in currentPlayer.selectedCard)
-		{
-			Debug.Log(c);
-		}
+		//foreach(Card c in currentPlayer.selectedCard)
+		//{
+		//	Debug.Log(c);
+		//}
 	}
 
 	public void onCardUnselected(Card card)
